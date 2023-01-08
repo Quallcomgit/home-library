@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">My books</string>
+
+    <string name="informationName">Information about book</string>
+    <string name="changeBook">Change information about book</string>
+    <string name="addBook">Add book</string>
+    <string name="favouriteBook">Favourite books</string>
+
+    <string name="textAuthorName">Author:</string>
+    <string name="textTitle">Title:</string>
+    
+    <string name="textWhereBook">Where is the book?</string>
+    
+    <string name="atHome">At home</string>
+    <string name="lost">Lost</string>
+    <string name="giveTo">Given to read</string>
+
+    <string name="textWhoHasBook">Who has the book?</string>
+    <string name="textIsRead">Have you read book?</string>
+    <string name="textCheckBox">YES!</string>
+    <string name="textPhoto">Photo</string>
+    <string name="textPdfFile">Electronic version</string>
+    <string name="textFavourite">Add to favourite</string>
+    <string name="textChooseFile">Choose file…</string>
+    
+    <string name="genre">Genre:</string>
+    
+    <string name="artisticChapter">Artistic literature</string>
+    <string name="childrenChapter">Children\'s literature</string>
+    <string name="educationChapter">Education</string>
+    <string name="psychologyChapter">Psychology</string>
+    <string name="philosophyChapter">Philosophy</string>
+    <string name="foreignChapter">Foreign literature</string>
+    <string name="otherChapter">Other</string>
+
+
+    
+    <string name="chapter">Chapter:</string>
+    <string name="rack">Rack:</string>
+    <string name="shelf">Shelf:</string>
+
+    <string name="century">Century:</string>
+
+    <string name="twentyOneCentury" translatable="false">XXI</string>
+    <string name="twentyCentury" translatable="false">XX</string>
+    <string name="nineteenCentury" translatable="false">XIX</string>
+    <string name="eighteenCentury" translatable="false">XVIII</string>
+    <string name="seventeenCentury" translatable="false">XVII</string>
+    <string name="sixteenCentury" translatable="false">XVI</string>
+    <string name="fifteenCentury" translatable="false">XV</string>
+    <string name="lessFifteenCentury" translatable="false">&#60;XV</string>
+
+
+    <string name="hintAuthor">Enter the full name</string>
+    <string name="hintTitle">Enter the title</string>
+    <string name="hintGenre">Enter the genre</string>
+    <string name="hintPhoto">Choose photo</string>
+    <string name="hintWhoHasBook">Enter a name</string>
+
+    <string name="textDetailsAuthor">Author:</string>
+    <string name="textDetailsTitle">Title:</string>
+    <string name="textDetailsGenre">Genre:</string>
+    <string name="textDetailsWhereBook">Where is the book?</string>
+    <string name="textDetailsChapter">Chapter:</string>
+    <string name="textDetailsRack">Rack:</string>
+    <string name="textDetailsShelf">Shelf:</string>
+    <string name="textDetailsCentury">Century:</string>
+    <string name="textDetailsInFavourite">In favourite?</string>
+    <string name="textDetailsIsRead">Have you read book?</string>
+    <string name="textDetailsPhoto">Photo</string>
+    <string name="textDetailsPdfFile">Electronic version</string>
+    <string name="textDetailsWhoHasBook">Who has the book?</string>
+
+    <string name="confirmTitle">Are you sure?</string>
+    <string name="confirmMessage">This will permanently delete the book</string>
+
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonDelete">Delete</string>
+
+    <string name="entryAdded">Book added successfully</string>
+    <string name="entryNotAdded">Book was not added due to an error</string>
+    <string name="entryUpdated">Book updated</string>
+    <string name="entryNotUpdated">Book was not updated due to an error</string>
+
+    <string name="invalidQueryUri" translatable="false">Invalid query Uri: </string>
+    <string name="invalidInsertUri" translatable="false">Invalid insert Uri: </string>
+    <string name="invalidUpdateUri" translatable="false">Invalid update Uri: </string>
+    <string name="invalidDeleteUri" translatable="false">Invalid delete Uri: </string>
+
+    <string name="insertFailed">Insert failed:</string>
+
+    <string name="chooseYes">YES!</string>
+    <string name="chooseNo">NO!</string>
+
+    <string name="generalInformation">General information</string>
+    <string name="location">Location</string>
+    <string name="additionalInformation">Additional information</string>
+
+    <string name="error">Error</string>
+    <string name="choosePhoto">Please choose image</string>
+    <string name="ok">ok</string>
+
+    <string name="imageButtonText">Click to choose</string>
+    <string name="imageViewText">No photo</string>
+</resources>

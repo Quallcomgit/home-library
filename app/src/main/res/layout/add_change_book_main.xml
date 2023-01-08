@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContentFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.gridlayout.widget.GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margins"
+                android:layout_marginTop="@dimen/margins"
+                android:layout_marginEnd="@dimen/margins"
+                android:layout_marginBottom="@dimen/margins">
+
+                <TextView
+                    android:id="@+id/textViewGeneralInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:background="@drawable/text_lines"
+                    android:text="@string/generalInformation"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_columnSpan="2"
+                    app:layout_row="0" />
+
+
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textTitle"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textViewAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textAuthorName"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textViewGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/genre"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="3" />
+
+                <TextView
+                    android:id="@+id/textViewLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:background="@drawable/text_lines"
+                    android:text="@string/location"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_columnSpan="2"
+                    app:layout_row="4" />
+
+                <TextView
+                    android:id="@+id/textViewWhereBook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textWhereBook"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="5" />
+
+                <TextView
+                    android:id="@+id/textViewChapter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/chapter"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="6" />
+
+                <TextView
+                    android:id="@+id/textViewRack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/rack"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="7" />
+
+                <TextView
+                    android:id="@+id/textViewShelf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/shelf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="8" />
+
+                <TextView
+                    android:id="@+id/textViewCentury"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/century"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="9" />
+
+                <TextView
+                    android:id="@+id/textViewWhoHasBook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textWhoHasBook"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="10" />
+
+                <TextView
+                    android:id="@+id/textViewAdditionalInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:background="@drawable/text_lines"
+                    android:text="@string/additionalInformation"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_columnSpan="2"
+                    app:layout_row="11" />
+
+
+                <TextView
+                    android:id="@+id/textViewIsRead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textIsRead"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="12" />
+
+                <TextView
+                    android:id="@+id/textViewPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textPhoto"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="13" />
+
+                <TextView
+                    android:id="@+id/textViewFile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textPdfFile"
+                    android:textColor="@color/black"
+                    android:visibility="gone"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="14" />
+
+                <TextView
+                    android:id="@+id/textViewAddToFavourite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textFavourite"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="15" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/editTextTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:hint="@string/hintTitle"
+                    android:inputType="text"
+                    android:maxLength="@integer/maxDigitsTitle"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="1" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/editTextAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:hint="@string/hintAuthor"
+                    android:inputType="text"
+                    android:maxLength="@integer/maxDigitsAuthor"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="2" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/editTextGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:hint="@string/hintGenre"
+                    android:inputType="text"
+                    android:maxLength="@integer/maxDigitsGenre"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="3" />
+
+
+                <Spinner
+                    android:id="@+id/spinnerWhereBook"
+                    android:layout_width="@dimen/widthSpinner"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:entries="@array/whereBook"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="5" />
+
+                <Spinner
+                    android:id="@+id/spinnerChooseChapter"
+                    android:layout_width="@dimen/widthSpinner"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:entries="@array/chooseChapter"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="6" />
+
+                <Spinner
+                    android:id="@+id/spinnerChooseRack"
+                    android:layout_width="@dimen/widthSpinner"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:entries="@array/chooseRack"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="7" />
+
+                <Spinner
+                    android:id="@+id/spinnerChooseShelf"
+                    android:layout_width="@dimen/widthSpinner"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:entries="@array/chooseShelf"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="8" />
+
+                <Spinner
+                    android:id="@+id/spinnerChooseCentury"
+                    android:layout_width="@dimen/widthSpinner"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:entries="@array/chooseCentury"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="9" />
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/editTextWhoHasBook"
+                    android:layout_width="@dimen/widthEditText"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="@string/hintWhoHasBook"
+                    android:inputType="textMultiLine"
+                    android:maxLength="@integer/maxWhoHasBook"
+                    android:textColorHint="@color/hintColor"
+                    android:textSize="@dimen/hintSize"
+                    app:layout_column="1"
+                    app:layout_row="10"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+                <CheckBox
+                    android:id="@+id/checkBoxIsRead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textCheckBox"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="12" />
+
+                <FrameLayout
+                    app:layout_column="1"
+                    app:layout_row="13">
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="@dimen/widthImage"
+                        android:layout_height="@dimen/heightImage"
+                        android:layout_marginTop="@dimen/margins"
+                        android:layout_marginBottom="@dimen/margins"
+                        android:background="@drawable/color_image_button"
+                        android:src="?attr/selectableItemBackgroundBorderless"
+                        app:layout_column="1"
+                        app:layout_row="13" />
+
+                    <TextView
+                        android:id="@+id/imageButtonText"
+                        android:layout_width="@dimen/widthImage"
+                        android:layout_height="@dimen/heightImage"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:clickable="false"
+                        android:textSize="@dimen/hintSize"
+                        android:gravity="center"
+                        android:text="@string/imageButtonText"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+
+                </FrameLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="@dimen/widthButton"
+                    android:layout_height="@dimen/heightButton"
+                    android:layout_marginTop="@dimen/margins"
+                    android:visibility="gone"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textChooseFile"
+                    app:layout_column="1"
+                    app:layout_row="14" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxFavourite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textCheckBox"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="15" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButtonSaveBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginStart="@dimen/margins"
+                android:layout_marginTop="@dimen/margins"
+                android:layout_marginEnd="@dimen/margins"
+                android:layout_marginBottom="@dimen/margins"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@android:drawable/ic_menu_save"
+                app:backgroundTint="@color/purple_700" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

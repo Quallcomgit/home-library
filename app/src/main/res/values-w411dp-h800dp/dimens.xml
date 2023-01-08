@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margins">20dp</dimen>
+    <dimen name="marginTop">55dp</dimen>
+
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="hintSize">15sp</dimen>
+
+    <dimen name="seekBarHeight">40dp</dimen>
+
+    <dimen name="width">100dp</dimen>
+    <dimen name="widthEditText">145dp</dimen>
+
+    <dimen name="widthImage">120dp</dimen>
+    <dimen name="heightImage">155dp</dimen>
+
+    <dimen name="widthSpinner">190dp</dimen>
+    <dimen name="widthTextView">150dp</dimen>
+
+    <dimen name="padding">7dp</dimen>
+</resources>

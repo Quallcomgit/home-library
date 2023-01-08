@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.courseworkrmp.app-mergeDebugResources-34:/layout-h1000dp-v13/activity_main.xml",
+        "source": "com.example.courseworkrmp.app-main-37:/layout-h1000dp/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-34:\\layout-h1000dp-v13\\activity_main.xml",
+        "source": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-main-37:\\layout-h1000dp\\activity_main.xml"
+    }
+]

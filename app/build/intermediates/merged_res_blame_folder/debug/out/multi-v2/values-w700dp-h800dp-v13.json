@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.courseworkrmp.app-mergeDebugResources-33:/values-w700dp-h800dp-v13/values-w700dp-h800dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\CourseWorkRMP\\app\\src\\main\\res\\values-w700dp-h800dp\\dimens.xml",
+                    "from": {
+                        "startLines": "5,2,7,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "140,57,183,99",
+                        "endColumns": "39,38,44,39",
+                        "endOffsets": "175,91,223,134"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,95,134,179",
+                        "endColumns": "39,38,44,39",
+                        "endOffsets": "90,129,174,214"
+                    }
+                }
+            ]
+        }
+    ]
+}

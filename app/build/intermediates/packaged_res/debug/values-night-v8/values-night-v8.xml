@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Laba5RMP" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        
+    </style>
+    <style name="Theme.Laba5RMP.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Laba5RMP.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Laba5RMP.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

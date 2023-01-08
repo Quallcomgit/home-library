@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="whereBook">
+        <item>@string/atHome</item>
+        <item>@string/lost</item>
+        <item>@string/giveTo</item>
+    </string-array>
+
+    <string-array name="chooseChapter">
+        <item>@string/artisticChapter</item>
+        <item>@string/childrenChapter</item>
+        <item>@string/educationChapter</item>
+        <item>@string/psychologyChapter</item>
+        <item>@string/philosophyChapter</item>
+        <item>@string/foreignChapter</item>
+        <item>@string/otherChapter</item>
+    </string-array>
+
+    <string-array name="chooseRack">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="chooseShelf">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="chooseCentury">
+        <item>@string/twentyOneCentury</item>
+        <item>@string/twentyCentury</item>
+        <item>@string/nineteenCentury</item>
+        <item>@string/eighteenCentury</item>
+        <item>@string/seventeenCentury</item>
+        <item>@string/sixteenCentury</item>
+        <item>@string/fifteenCentury</item>
+        <item>@string/lessFifteenCentury</item>
+    </string-array>
+</resources>

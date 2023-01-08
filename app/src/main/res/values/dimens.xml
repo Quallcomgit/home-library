@@ -1,0 +1,23 @@
+<resources>
+    <dimen name="margins">15dp</dimen>
+    <dimen name="marginTop">55dp</dimen>
+
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="hintSize">13sp</dimen>
+
+    <dimen name="seekBarHeight">40dp</dimen>
+
+    <dimen name="width">100dp</dimen>
+    <dimen name="widthEditText">140dp</dimen>
+
+    <dimen name="widthImage">100dp</dimen>
+    <dimen name="heightImage">145dp</dimen>
+
+    <dimen name="widthButton">145dp</dimen>
+    <dimen name="heightButton">60dp</dimen>
+
+    <dimen name="widthSpinner">170dp</dimen>
+    <dimen name="widthTextView">130dp</dimen>
+
+    <dimen name="padding">7dp</dimen>
+</resources>

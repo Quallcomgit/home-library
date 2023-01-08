@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.courseworkrmp.app-mergeDebugResources-33:/values-w400dp-h700dp-v13/values-w400dp-h700dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\CourseWorkRMP\\app\\src\\main\\res\\values-w400dp-h700dp\\dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,19,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,544,-1",
+                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,44,-1",
+                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,584,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,143,183,224,263,301,346,386,424,468,514,557,602",
+                        "endColumns": "43,43,39,40,38,37,44,39,37,43,45,42,44,45",
+                        "endOffsets": "94,138,178,219,258,296,341,381,419,463,509,552,597,643"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-33:\\values-w400dp-h700dp-v13\\values-w400dp-h700dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\CourseWorkRMP\\app\\src\\main\\res\\values-w400dp-h700dp\\dimens.xml",
+                    "from": {
+                        "startLines": "17,14,6,3,2,22,8,5,10,16,11,13,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "497,405,182,97,57,639,225,141,273,452,312,361,544,590",
+                        "endColumns": "43,43,39,40,38,37,44,39,37,43,45,42,44,45",
+                        "endOffsets": "536,444,217,133,91,672,265,176,306,491,353,399,584,631"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,143,183,224,263,301,346,386,424,468,514,557,602",
+                        "endColumns": "43,43,39,40,38,37,44,39,37,43,45,42,44,45",
+                        "endOffsets": "94,138,178,219,258,296,341,381,419,463,509,552,597,643"
+                    }
+                }
+            ]
+        }
+    ]
+}

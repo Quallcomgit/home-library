@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мои книги</string>
+
+    <string name="informationName">Информация о книге</string>
+    <string name="changeBook">Изменить информацию о книге</string>
+    <string name="addBook">Добавить книгу</string>
+    <string name="favouriteBook">Избранное</string>
+
+    <string name="textAuthorName">Автор:</string>
+    <string name="textTitle">Название:</string>
+
+    <string name="textWhereBook">Где книга?</string>
+
+    <string name="atHome">Дома</string>
+    <string name="lost">Потеряна</string>
+    <string name="giveTo">Отдана почитать</string>
+
+    <string name="textWhoHasBook">У кого книга?</string>
+    <string name="textIsRead">Вы прочитали книгу?</string>
+    <string name="textCheckBox">Да!</string>
+    <string name="textPhoto">Фотография</string>
+    <string name="textPdfFile">Электронный вариант</string>
+    <string name="textFavourite">Добавить в избранное</string>
+    <string name="textChooseFile">Выберите файл…</string>
+
+    <string name="genre">Жанр:</string>
+
+    <string name="artisticChapter">Художественная литература</string>
+    <string name="childrenChapter">Детская литература</string>
+    <string name="educationChapter">Образование</string>
+    <string name="psychologyChapter">Психология</string>
+    <string name="philosophyChapter">Философия</string>
+    <string name="foreignChapter">Иностранная литература</string>
+    <string name="otherChapter">Другое</string>
+
+    <string name="chapter">Раздел:</string>
+    <string name="rack">Стеллаж:</string>
+    <string name="shelf">Полка:</string>
+    <string name="century">Век:</string>
+
+
+    <string name="hintAuthor">Введите ФИО</string>
+    <string name="hintTitle">Введите название</string>
+    <string name="hintGenre">Введите жанр</string>
+    <string name="hintPhoto">Выберите фото</string>
+    <string name="hintWhoHasBook">Введите название</string>
+
+    <string name="textDetailsAuthor">Автор:</string>
+    <string name="textDetailsTitle">Название:</string>
+    <string name="textDetailsGenre">Жанр:</string>
+    <string name="textDetailsChapter">Раздел:</string>
+    <string name="textDetailsRack">Стеллаж:</string>
+    <string name="textDetailsShelf">Полка:</string>
+    <string name="textDetailsCentury">Век:</string>
+    <string name="textDetailsWhereBook">Где книга?</string>
+    <string name="textDetailsInFavourite">В избранном?</string>
+    <string name="textDetailsIsRead">Вы прочитали книгу?</string>
+    <string name="textDetailsPhoto">Фото</string>
+    <string name="textDetailsPdfFile">Электронный вариант</string>
+    <string name="textDetailsWhoHasBook">У кого книга?</string>
+
+    <string name="confirmTitle">Вы уверены?</string>
+    <string name="confirmMessage">Это навсегда удалит книгу</string>
+
+    <string name="buttonCancel">Отмена</string>
+    <string name="buttonDelete">Удалить</string>
+
+    <string name="entryAdded">Книга успешно добавлена</string>
+    <string name="entryNotAdded">Книга не добавлена из-за ошибки</string>
+    <string name="entryUpdated">Книга обновлена</string>
+    <string name="entryNotUpdated">Книга не обновлена из-за ошибки</string>
+
+    <string name="invalidQueryUri" translatable="false">Invalid query Uri: </string>
+    <string name="invalidInsertUri" translatable="false">Invalid insert Uri: </string>
+    <string name="invalidUpdateUri" translatable="false">Invalid update Uri: </string>
+    <string name="invalidDeleteUri" translatable="false">Invalid delete Uri: </string>
+
+    <string name="insertFailed">Нудачно:</string>
+
+    <string name="chooseYes">ДА!</string>
+    <string name="chooseNo">НЕТ!</string>
+
+    <string name="generalInformation">Общая информация</string>
+    <string name="location">Расположение</string>
+    <string name="additionalInformation">Дополнительная информация</string>
+
+    <string name="error">Ошибка</string>
+    <string name="choosePhoto">Пожалуйста, выберите изображение</string>
+    <string name="ok">ок</string>
+
+    <string name="imageButtonText">Нажмите, чтобы выбрать</string>
+    <string name="imageViewText">Фотографии нет</string>
+</resources>

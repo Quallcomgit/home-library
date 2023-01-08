@@ -1,0 +1,46 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-33:\\values-w600dp-v13\\values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\CourseWorkRMP\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "9,-1,-1,-1,-1,8",
+                        "startColumns": "4,-1,-1,-1,-1,4",
+                        "startOffsets": "226,-1,-1,-1,-1,183",
+                        "endColumns": "42,-1,-1,-1,-1,42",
+                        "endOffsets": "264,-1,-1,-1,-1,221"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,98,138,177,222,262",
+                        "endColumns": "42,39,38,44,39,42",
+                        "endOffsets": "93,133,172,217,257,300"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.courseworkrmp.app-mergeDebugResources-33:/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\CourseWorkRMP\\app\\src\\main\\res\\values-w600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,95,134,179",
+                        "endColumns": "39,38,44,39",
+                        "endOffsets": "90,129,174,214"
+                    }
+                }
+            ]
+        }
+    ]
+}

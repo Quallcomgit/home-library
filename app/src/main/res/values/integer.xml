@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="maxDigitsAuthor">25</integer>
+    <integer name="maxDigitsTitle">25</integer>
+    <integer name="maxDigitsGenre">15</integer>
+    <integer name="maxWhoHasBook">25</integer>
+</resources>

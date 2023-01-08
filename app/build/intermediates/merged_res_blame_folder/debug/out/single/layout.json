@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-34:\\layout\\catalog_fragment.xml",
+        "source": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-main-37:\\layout\\catalog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-34:\\layout\\fragment_favourite_book.xml",
+        "source": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-main-37:\\layout\\fragment_favourite_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-34:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-34:\\layout\\dropdown.xml",
+        "source": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-main-37:\\layout\\dropdown.xml"
+    },
+    {
+        "merged": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-34:\\layout\\book_information_fragment.xml",
+        "source": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-main-37:\\layout\\book_information_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-34:\\layout\\add_change_book_main.xml",
+        "source": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-main-37:\\layout\\add_change_book_main.xml"
+    },
+    {
+        "merged": "com.example.courseworkrmp.app-mergeDebugResources-34:/layout/add_change_book_main.xml",
+        "source": "com.example.courseworkrmp.app-main-37:/layout/add_change_book_main.xml"
+    }
+]

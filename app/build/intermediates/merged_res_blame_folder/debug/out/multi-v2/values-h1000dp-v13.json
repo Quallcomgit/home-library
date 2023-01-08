@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Егор\\.gradle\\daemon\\7.4\\com.example.courseworkrmp.app-mergeDebugResources-33:\\values-h1000dp-v13\\values-h1000dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\CourseWorkRMP\\app\\src\\main\\res\\values-h1000dp\\dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,182,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,40,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,218,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,100,144,185,226,265,304,350,390,428,472,518,561,606",
+                        "endColumns": "44,43,40,40,38,38,45,39,37,43,45,42,44,45",
+                        "endOffsets": "95,139,180,221,260,299,345,385,423,467,513,556,601,647"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.courseworkrmp.app-mergeDebugResources-33:/values-h1000dp-v13/values-h1000dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\CourseWorkRMP\\app\\src\\main\\res\\values-h1000dp\\dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,182,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,-1,39,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,-1,217,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,100,144,184,225,264,303,349,389,427,471,517,560,605",
+                        "endColumns": "44,43,39,40,38,38,45,39,37,43,45,42,44,45",
+                        "endOffsets": "95,139,179,220,259,298,344,384,422,466,512,555,600,646"
+                    }
+                }
+            ]
+        }
+    ]
+}

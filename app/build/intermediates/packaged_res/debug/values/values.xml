@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chooseCentury">
+        <item>@string/twentyOneCentury</item>
+        <item>@string/twentyCentury</item>
+        <item>@string/nineteenCentury</item>
+        <item>@string/eighteenCentury</item>
+        <item>@string/seventeenCentury</item>
+        <item>@string/sixteenCentury</item>
+        <item>@string/fifteenCentury</item>
+        <item>@string/lessFifteenCentury</item>
+    </string-array>
+    <string-array name="chooseChapter">
+        <item>@string/artisticChapter</item>
+        <item>@string/childrenChapter</item>
+        <item>@string/educationChapter</item>
+        <item>@string/psychologyChapter</item>
+        <item>@string/philosophyChapter</item>
+        <item>@string/foreignChapter</item>
+        <item>@string/otherChapter</item>
+    </string-array>
+    <string-array name="chooseRack">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="chooseShelf">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="whereBook">
+        <item>@string/atHome</item>
+        <item>@string/lost</item>
+        <item>@string/giveTo</item>
+    </string-array>
+    <color name="backgroundColor">#FFF7E4</color>
+    <color name="black">#FF000000</color>
+    <color name="hintColor">#555555</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="ic_logo_background">#FFFFFF</color>
+    <color name="purple_200">#1F79FF</color>
+    <color name="purple_500">#1F79FF</color>
+    <color name="purple_700">#004CB3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="heightButton">60dp</dimen>
+    <dimen name="heightImage">145dp</dimen>
+    <dimen name="hintSize">13sp</dimen>
+    <dimen name="marginTop">55dp</dimen>
+    <dimen name="margins">15dp</dimen>
+    <dimen name="padding">7dp</dimen>
+    <dimen name="seekBarHeight">40dp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="width">100dp</dimen>
+    <dimen name="widthButton">145dp</dimen>
+    <dimen name="widthEditText">140dp</dimen>
+    <dimen name="widthImage">100dp</dimen>
+    <dimen name="widthSpinner">170dp</dimen>
+    <dimen name="widthTextView">130dp</dimen>
+    <integer name="maxDigitsAuthor">25</integer>
+    <integer name="maxDigitsGenre">15</integer>
+    <integer name="maxDigitsTitle">25</integer>
+    <integer name="maxWhoHasBook">25</integer>
+    <string name="addBook">Add book</string>
+    <string name="additionalInformation">Additional information</string>
+    <string name="app_name">My books</string>
+    <string name="artisticChapter">Artistic literature</string>
+    <string name="atHome">At home</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="buttonDelete">Delete</string>
+    <string name="century">Century:</string>
+    <string name="changeBook">Change information about book</string>
+    <string name="chapter">Chapter:</string>
+    <string name="childrenChapter">Children\'s literature</string>
+    <string name="chooseNo">NO!</string>
+    <string name="choosePhoto">Please choose image</string>
+    <string name="chooseYes">YES!</string>
+    <string name="confirmMessage">This will permanently delete the book</string>
+    <string name="confirmTitle">Are you sure?</string>
+    <string name="educationChapter">Education</string>
+    <string name="eighteenCentury" translatable="false">XVIII</string>
+    <string name="entryAdded">Book added successfully</string>
+    <string name="entryNotAdded">Book was not added due to an error</string>
+    <string name="entryNotUpdated">Book was not updated due to an error</string>
+    <string name="entryUpdated">Book updated</string>
+    <string name="error">Error</string>
+    <string name="favouriteBook">Favourite books</string>
+    <string name="fifteenCentury" translatable="false">XV</string>
+    <string name="foreignChapter">Foreign literature</string>
+    <string name="generalInformation">General information</string>
+    <string name="genre">Genre:</string>
+    <string name="giveTo">Given to read</string>
+    <string name="hintAuthor">Enter the full name</string>
+    <string name="hintGenre">Enter the genre</string>
+    <string name="hintPhoto">Choose photo</string>
+    <string name="hintTitle">Enter the title</string>
+    <string name="hintWhoHasBook">Enter a name</string>
+    <string name="imageButtonText">Click to choose</string>
+    <string name="imageViewText">No photo</string>
+    <string name="informationName">Information about book</string>
+    <string name="insertFailed">Insert failed:</string>
+    <string name="invalidDeleteUri" translatable="false">Invalid delete Uri: </string>
+    <string name="invalidInsertUri" translatable="false">Invalid insert Uri: </string>
+    <string name="invalidQueryUri" translatable="false">Invalid query Uri: </string>
+    <string name="invalidUpdateUri" translatable="false">Invalid update Uri: </string>
+    <string name="lessFifteenCentury" translatable="false">&lt;XV</string>
+    <string name="location">Location</string>
+    <string name="lost">Lost</string>
+    <string name="nineteenCentury" translatable="false">XIX</string>
+    <string name="ok">ok</string>
+    <string name="otherChapter">Other</string>
+    <string name="philosophyChapter">Philosophy</string>
+    <string name="psychologyChapter">Psychology</string>
+    <string name="rack">Rack:</string>
+    <string name="seventeenCentury" translatable="false">XVII</string>
+    <string name="shelf">Shelf:</string>
+    <string name="sixteenCentury" translatable="false">XVI</string>
+    <string name="textAuthorName">Author:</string>
+    <string name="textCheckBox">YES!</string>
+    <string name="textChooseFile">Choose file…</string>
+    <string name="textDetailsAuthor">Author:</string>
+    <string name="textDetailsCentury">Century:</string>
+    <string name="textDetailsChapter">Chapter:</string>
+    <string name="textDetailsGenre">Genre:</string>
+    <string name="textDetailsInFavourite">In favourite?</string>
+    <string name="textDetailsIsRead">Have you read book?</string>
+    <string name="textDetailsPdfFile">Electronic version</string>
+    <string name="textDetailsPhoto">Photo</string>
+    <string name="textDetailsRack">Rack:</string>
+    <string name="textDetailsShelf">Shelf:</string>
+    <string name="textDetailsTitle">Title:</string>
+    <string name="textDetailsWhereBook">Where is the book?</string>
+    <string name="textDetailsWhoHasBook">Who has the book?</string>
+    <string name="textFavourite">Add to favourite</string>
+    <string name="textIsRead">Have you read book?</string>
+    <string name="textPdfFile">Electronic version</string>
+    <string name="textPhoto">Photo</string>
+    <string name="textTitle">Title:</string>
+    <string name="textWhereBook">Where is the book?</string>
+    <string name="textWhoHasBook">Who has the book?</string>
+    <string name="twentyCentury" translatable="false">XX</string>
+    <string name="twentyOneCentury" translatable="false">XXI</string>
+    <style name="Theme.Laba5RMP" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        
+    </style>
+    <style name="Theme.Laba5RMP.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Laba5RMP.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Laba5RMP.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>

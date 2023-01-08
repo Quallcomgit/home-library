@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margins"
+                android:layout_marginTop="@dimen/margins"
+                android:layout_marginEnd="@dimen/margins"
+                android:layout_marginBottom="@dimen/margins">
+
+                <TextView
+                    android:id="@+id/textViewDetailsGeneralInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:background="@drawable/text_lines"
+                    android:text="@string/generalInformation"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_columnSpan="2"
+                    app:layout_row="0" />
+
+
+                <TextView
+                    android:id="@+id/textViewTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsTitle"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsAuthor"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsGenre"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="3" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:background="@drawable/text_lines"
+                    android:text="@string/location"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_columnSpan="2"
+                    app:layout_row="4" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsWhereBook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsWhereBook"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="5" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsWhoHasBook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsWhoHasBook"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="6" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsChapter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsChapter"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="7" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsRack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsRack"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="8" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsShelf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsShelf"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="9" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsCentury"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsCentury"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="10" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsAdditionalInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:background="@drawable/text_lines"
+                    android:text="@string/additionalInformation"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_columnSpan="2"
+                    app:layout_row="11" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsIsRead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsIsRead"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="12" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsPhoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsPhoto"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_gravity="center_vertical"
+                    app:layout_row="13" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsPdfFile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsPdfFile"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="14" />
+
+                <TextView
+                    android:id="@+id/textViewDetailsInFavourite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margins"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginEnd="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text="@string/textDetailsInFavourite"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="0"
+                    app:layout_row="15" />
+
+
+                <TextView
+                    android:id="@+id/textViewSetTitle"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textViewSetAuthor"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textViewSetGenre"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="3" />
+
+                <TextView
+                    android:id="@+id/textViewSetWhereBook"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="5" />
+
+                <TextView
+                    android:id="@+id/textViewSetWhoHasBook"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="6" />
+
+                <TextView
+                    android:id="@+id/textViewSetChapter"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="7" />
+
+                <TextView
+                    android:id="@+id/textViewSetRack"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="8" />
+
+                <TextView
+                    android:id="@+id/textViewSetShelf"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="9" />
+
+                <TextView
+                    android:id="@+id/textViewSetCentury"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="10" />
+
+
+                <TextView
+                    android:id="@+id/textViewSetIsRead"
+                    android:layout_width="@dimen/width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="12" />
+
+                <FrameLayout
+                    app:layout_column="1"
+                    app:layout_row="13">
+
+                    <ImageView
+                        android:id="@+id/imageViewSetPhoto"
+                        android:layout_width="@dimen/widthImage"
+                        android:layout_height="@dimen/heightImage"
+                        android:layout_marginTop="@dimen/margins"
+                        android:layout_marginBottom="@dimen/margins"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textSize"
+                        app:layout_column="1"
+                        app:layout_row="13" />
+
+                    <TextView
+                        android:id="@+id/imageViewSetText"
+                        android:layout_width="@dimen/widthImage"
+                        android:layout_height="@dimen/heightImage"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:clickable="false"
+                        android:textSize="@dimen/textSize"
+                        android:gravity="center"
+                        android:text="@string/imageViewText"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textViewSetPdfFile"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:visibility="gone"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="14" />
+
+                <TextView
+                    android:id="@+id/textViewSetInFavourite"
+                    android:layout_width="@dimen/widthTextView"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margins"
+                    android:layout_marginBottom="@dimen/margins"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textSize"
+                    app:layout_column="1"
+                    app:layout_row="15" />
+
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
